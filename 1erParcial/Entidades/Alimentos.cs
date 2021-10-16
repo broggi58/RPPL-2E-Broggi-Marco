@@ -9,9 +9,11 @@ namespace Entidades
    public class Alimento : Producto
     {
         private EMarca marca;
+       
         public Alimento (EMarca marca,int id,double precio) : base(id,precio)
         {
             this.marca = marca;
+            
         }
 
         public EMarca Marca
